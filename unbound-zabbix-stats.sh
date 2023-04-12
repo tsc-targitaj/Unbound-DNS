@@ -4,11 +4,11 @@
 #	CRON Example
 #	*/5   **** root sh /home/dir/unboundSend.sh 192.168.10.1 Unbound 1> /dev/null	
 
-if [ -z ${1} ] || [ -z ${2} ] ; then
-	echo "You need to specify the IP address of zabbix server and hostname of your DNS Unbound on zabbix"
-	echo "Usage example: ./unboundSend.sh 192.168.10.1 UnboundServer"
-	exit 1
-fi
+#if [ -z ${1} ] || [ -z ${2} ] ; then
+#	echo "You need to specify the IP address of zabbix server and hostname of your DNS Unbound on zabbix"
+#	echo "Usage example: ./unboundSend.sh 192.168.10.1 UnboundServer"
+#	exit 1
+#fi
 
 # ZABBIX_SERVER IP
 IP_ZABBIX=$1
